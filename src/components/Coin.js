@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import apiPub  from './ApiPub';
+import images from './Img'
 
 export default class Coin extends Component {
   constructor() {
@@ -19,15 +20,15 @@ export default class Coin extends Component {
   }
 
   render() {
+    debugger
     const { coins } = this.state;
     return coins ? (
       <div>
         {coins.map(coin => {
           return (
             <li key={coin.id}>
-              <ul>
-                {coin.name} {coin.symbol} {coin.quotes.USD.price}
-              </ul>
+            <img src={images[coin.symbol]}/>
+               {coin.name} {coin.symbol} {coin.quotes.USD.price}
             </li>
           );
         })}
