@@ -12,7 +12,7 @@ const Graph = props => {
 
   return info ? (
     <div>
-      GRAPHING SOON {info.name}
+      Crypto Circulation
       <PieChart data={pieChartInfo} size={300} />
       <Legend data={pieChartInfo} dataId={'key'} config={config} horizontal />
     </div>
