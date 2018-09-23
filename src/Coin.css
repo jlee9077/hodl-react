@@ -1,0 +1,29 @@
+#parentContainer {
+  display: grid;
+  justify-items: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 21%;
+  margin-left: 40%;
+  border-radius: 30px;
+  padding-bottom: 15px;
+}
+
+#bitCoinInfo {
+  padding-top: 15px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  grid-gap: 20px;
+  padding-bottom:10px;
+  border-bottom: 2px solid orange;
+  /* border:1px solid red; */
+}
+
+#crypto {
+  justify-self: start;
+  align-self: center;
+}
+
+img {
+  justify-self: end;
+}
