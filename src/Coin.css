@@ -1,7 +1,7 @@
 #parentContainer {
   display: grid;
   justify-items: center;
-  border: 1px solid black;
+  border: 4px solid black;
   border-radius: 3px;
   width: 21%;
   margin-left: 40%;
